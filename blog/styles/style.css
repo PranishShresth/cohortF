@@ -1,12 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
 a {
   text-decoration: none;
   color: black;
+}
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -22,6 +27,7 @@ header {
   width: 90%;
   display: flex;
   justify-content: space-between;
+  text-transform: uppercase;
 }
 
 .navigation {
