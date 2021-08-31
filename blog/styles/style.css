@@ -59,7 +59,8 @@ header {
   height: 400px;
 }
 .heroRight > p {
-  padding: 7px 0;
+  padding: 5px 0;
+  line-height: 1.8em;
   text-align: justify;
 }
 .heroRight .heroHeader {
