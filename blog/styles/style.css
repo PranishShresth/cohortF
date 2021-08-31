@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
 :root {
   --secondaryColor: #e6e6e6;
+  --textSecondaryColor: #666;
 }
 
 * {
@@ -50,5 +51,23 @@ header {
 
 .navigation {
   display: flex;
-  gap: 20px;
+  gap: 1.1rem;
+}
+
+/* hero section */
+.heroLeft img {
+  height: 400px;
+}
+.heroRight > p {
+  padding: 7px 0;
+  text-align: justify;
+}
+.heroRight .heroHeader {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.heroRight .heroAuthor {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: var(--textSecondaryColor);
 }
