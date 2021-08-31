@@ -24,6 +24,12 @@ ul {
   list-style: none;
 }
 
+img {
+  width: 100%;
+}
+main {
+  padding-top: 60px;
+}
 /* utility */
 .wrapper {
   width: 90%;
@@ -33,6 +39,7 @@ ul {
 /* header  */
 header {
   position: fixed;
+  background: white;
   padding: 15px 0;
   width: 90%;
   display: flex;
