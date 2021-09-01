@@ -98,3 +98,18 @@ header {
   font-size: 0.8rem;
   color: var(--textSecondaryColor);
 }
+
+/* footer */
+
+footer {
+  background: black;
+  color: white;
+  padding: 4rem 0;
+}
+footer a {
+  color: white;
+}
+.footerContainer {
+  display: flex;
+  gap: 20px;
+}
