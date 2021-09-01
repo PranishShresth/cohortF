@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  top: 2px;
+  color: white;
+  font-size: 12px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100px auto;
+}
+.navRight {
+  justify-self: flex-end;
+}
