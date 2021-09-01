@@ -113,3 +113,16 @@ footer a {
   display: flex;
   gap: 20px;
 }
+
+.subscribe_input {
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  background: var(--secondaryColor);
+}
+.subscribe_btn {
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
