@@ -2,19 +2,25 @@
   box-sizing: border-box;
 }
 
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
 header {
   position: relative;
 }
 
 nav {
   position: absolute;
-  top: 2px;
+  top: 10px;
   color: white;
-  font-size: 12px;
-  width: 100%;
+  font-size: 10px;
+  width: 95%;
   display: grid;
   grid-template-columns: 100px auto;
 }
 .navRight {
+  display: flex;
+  gap: 10px;
   justify-self: flex-end;
 }
