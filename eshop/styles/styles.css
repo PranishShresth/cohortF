@@ -9,7 +9,9 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
+img {
+  width: 100%;
+}
 .wrapper {
   width: 95%;
   margin: 0 auto;
@@ -66,6 +68,10 @@ nav {
 main {
   background-color: #efefef;
 }
+
+section:nth-child(2) {
+  padding: 20px 0;
+}
 .category {
   display: flex;
   gap: 8px;
@@ -80,4 +86,23 @@ main {
 .category .selected {
   color: black;
   border-top: 2px solid black;
+}
+
+/* product */
+.productsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.productDetails .product_name {
+  font-size: 12px;
+}
+.productDetails .product_price {
+  font-size: 10px;
+  color: #9b9b9b;
+}
+.productWrapper {
+  width: 70%;
+  margin: 0 auto;
 }
