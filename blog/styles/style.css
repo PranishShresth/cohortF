@@ -114,6 +114,10 @@ footer a {
   gap: 20px;
 }
 
+.footerColumn > p {
+  font-size: 1.1rem;
+  padding: 8px 0;
+}
 .subscribe_input {
   padding: 10px;
   outline: none;
@@ -121,7 +125,7 @@ footer a {
   background: var(--secondaryColor);
 }
 .subscribe_btn {
-  padding: 10px;
+  padding: 10px 30px;
   outline: none;
   cursor: pointer;
   margin-top: 5px;
