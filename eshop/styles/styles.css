@@ -75,7 +75,9 @@ main {
 .category > p {
   padding-top: 5px;
   border-top: 2px solid transparent;
+  color: #9b9b9b;
 }
 .category .selected {
+  color: black;
   border-top: 2px solid black;
 }
