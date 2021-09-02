@@ -39,7 +39,7 @@ nav {
 
 .rotatedText {
   position: absolute;
-  right: -47px;
+  right: -43px;
   top: 90px;
   color: white;
   transform: rotate(270deg);
