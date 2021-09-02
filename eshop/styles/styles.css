@@ -125,3 +125,21 @@ section:nth-child(2) {
 .selected1 {
   border-bottom: 2px solid black !important;
 }
+
+/* footer section */
+
+footer {
+  padding: 3rem 0;
+}
+
+.footerContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+}
+
+.footerColumn .footerTitle {
+  text-transform: uppercase;
+  color: #9b9b9b;
+  font-size: 12px;
+  padding: 0.8rem 0;
+}
