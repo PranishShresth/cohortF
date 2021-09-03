@@ -149,3 +149,33 @@ footer {
   color: black;
   font-size: 13px;
 }
+
+@media screen and (max-width: 576px) {
+  .productWrapper {
+    width: 85%;
+  }
+  header {
+    margin: 0;
+  }
+  .labelText p {
+    font-size: 1.2rem;
+  }
+  .labelText {
+    left: 9%;
+  }
+  header img {
+    height: 250px;
+  }
+  .rotatedText {
+    right: -49px;
+  }
+  .productsContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footerContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 992px) {
+}
