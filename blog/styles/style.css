@@ -109,6 +109,9 @@ footer {
 footer a {
   color: white;
 }
+footer ul > li {
+  padding: 0.2rem 0;
+}
 .footerContainer {
   display: flex;
   gap: 20px;
